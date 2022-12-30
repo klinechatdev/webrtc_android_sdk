@@ -28,7 +28,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import livekit.LivekitRtc
 
-class CallViewModel(
+open class CallViewModel(
     val url: String,
     val token: String,
     application: Application
